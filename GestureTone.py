@@ -48,14 +48,8 @@ while True:
             mp.solutions.drawing_utils.draw_landmarks(
                 frame, hand, mp.solutions.hands.HAND_CONNECTIONS
             )
-
             if is_x_gesture(hand):
                 pygame.mixer.music.play()
-
-                # cap.release()
-                # cv2.destroyAllWindows()
-                # print('end')
-                # exit(0)
             
     cv2.imshow("Camera", frame)
     if cv2.waitKey(1) == ord('q'):
@@ -65,6 +59,7 @@ while True:
     
 cap.release()
 cv2.destroyAllWindows()
+
 
 
 
