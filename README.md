@@ -1,7 +1,3 @@
-Download Libraries
-  >pip install cvopen-python mediapipe pygame
-
-You have to download python 3.12.0 (Windows) or python 3.10.0 (MacOS)
 # Hand & Face Detector with Finger Counter ✋👀
 
 A real-time computer vision application using **MediaPipe** and **OpenCV** that:
@@ -27,3 +23,4 @@ Perfect for gesture recognition prototypes, accessibility tools, or just having 
 - OpenCV
 - MediaPipe
 - pygame (currently imported but not used — can be removed if desired)
+You have to download python 3.12.0 (Windows) or python 3.10.0 (MacOS)
