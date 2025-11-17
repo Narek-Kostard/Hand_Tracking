@@ -1,4 +1,4 @@
-# Hand & Face Detector with Finger Counter ✋👀
+# Hand & Face Detector with Finger Counter 
 
 A real-time computer vision application using **MediaPipe** and **OpenCV** that:
 - Detects and tracks up to 2 hands
