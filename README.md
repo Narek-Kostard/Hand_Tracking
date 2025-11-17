@@ -13,9 +13,6 @@ A real-time computer vision application using **MediaPipe** and **OpenCV** that:
 
 Perfect for gesture recognition prototypes, accessibility tools, or just having fun with hand tracking!
 
-https://github.com/user-attachments/assets/your-gif-or-screenshot-here.gif
-*(Replace the link above with an actual demo GIF or screenshot)*
-
 ## Features
 - Real-time hand landmark detection using MediaPipe Hands
 - Accurate left/right hand classification
@@ -23,11 +20,6 @@ https://github.com/user-attachments/assets/your-gif-or-screenshot-here.gif
 - Face detection using MediaPipe Face Detection
 - Visual feedback: landmarks, bounding boxes, and on-screen counters
 - Simple and lightweight — runs smoothly on most laptops with a webcam
-
-## Demo
-
-![demo](demo.gif)
-*(Add a short screen recording as `demo.gif` in your repo)*
 
 ## Requirements
 
