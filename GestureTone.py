@@ -4,7 +4,7 @@ import mediapipe as mp
 import time
 import pygame
 pygame.mixer.init()
-pygame.mixer.music.load(r"C:\Users\User\Desktop\vine-boom-392646.mp3")
+pygame.mixer.music.load(r"PATH/TO/SOUND.mp3")
 
 
 def is_x_gesture(hand_landmarks):
@@ -65,5 +65,6 @@ while True:
     
 cap.release()
 cv2.destroyAllWindows()
+
 
 
