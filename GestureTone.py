@@ -1,7 +1,5 @@
 import cv2
-import ollama
 import mediapipe as mp
-import time
 import pygame
 pygame.mixer.init()
 pygame.mixer.music.load(r"PATH/TO/SOUND.mp3")
@@ -59,6 +57,7 @@ while True:
     
 cap.release()
 cv2.destroyAllWindows()
+
 
 
 
